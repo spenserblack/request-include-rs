@@ -17,4 +17,5 @@ proc-macro = true
 proc-macro2 = "1.0"
 proc-macro-hack = "0.5.11"
 quote = "1.0"
+reqwest = { version = "0.10.1", features = ["blocking"] }
 syn = "1.0"
