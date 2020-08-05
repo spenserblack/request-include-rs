@@ -1,2 +1,2 @@
 [workspace]
-members = ["curl_include", "curl_include_impl"]
+members = ["request_include", "request_include_impl"]

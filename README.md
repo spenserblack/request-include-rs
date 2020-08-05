@@ -1,13 +1,13 @@
-# curl-include
-Use curl to `include!`
+# request-include
+`include!` from a request
 
 This is basically just a shortcut to skip downloading a response, and using `include!`/`include_str!` on that downloaded file.
 
 # Usage
 ```rust
-use curl_include::include_str as curl_str;
+use request_include::include_str as request_str;
 
-const DATA: &str = curl_str!("API-url");
+const DATA: &str = request_str!("API-url");
 ```
 
 # Warning

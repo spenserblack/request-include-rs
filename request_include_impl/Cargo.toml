@@ -1,10 +1,10 @@
 [package]
-name = "curl-include-impl"
+name = "request-include-impl"
 version = "0.0.1"
 authors = ["Spenser Black <spenserblack01@gmail.com>"]
 edition = "2018"
 license = "MIT OR Apache-2.0"
-description = "Implementation crate for curl-include"
+description = "Implementation crate for request-include"
 keywords = []
 categories = []
 repository = ""
