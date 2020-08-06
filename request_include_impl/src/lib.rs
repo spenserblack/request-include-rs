@@ -3,7 +3,6 @@ extern crate proc_macro;
 use proc_macro::{TokenStream, TokenTree};
 use proc_macro_hack::proc_macro_hack;
 use quote::quote;
-use syn::parse_macro_input;
 
 const ERROR: &str = "Invalid input";
 
