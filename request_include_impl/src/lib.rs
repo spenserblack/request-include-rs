@@ -22,9 +22,9 @@ pub fn include_str(input: TokenStream) -> TokenStream {
         _ => panic!(ERROR),
     };
     let body = reqwest::blocking::get(&input)
-        .unwrap()
+        .expect("Failed to get response")
         .text()
-        .unwrap();
+        .expect("Failed to parse response");
     let s = body.as_str();
     let token_stream = quote! {
         #s
