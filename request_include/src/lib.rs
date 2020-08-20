@@ -4,9 +4,11 @@ use proc_macro_hack::proc_macro_hack;
 ///
 /// # Examples
 ///
+/// *__NOTE__ The below examples fail to compile because `<website>` is not a valid URL.
+///
 /// ## No User Agent
 ///
-/// ```rust,no_run
+/// ```rust,compile_fail
 /// let response = request_include::include_str!("<website>");
 /// ```
 ///
@@ -16,7 +18,7 @@ use proc_macro_hack::proc_macro_hack;
 /// is likely to be blocked by many websites, so you should probably specify
 /// a user agent.
 ///
-/// ```rust,no_run
+/// ```rust,compile_fail
 /// let response = request_include::include_str!("<website>", "<my user agent (contact info)>");
 /// ```
 #[proc_macro_hack]
