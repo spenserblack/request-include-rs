@@ -1,4 +1,7 @@
 # request-include
+
+[![Build Status](https://travis-ci.com/spenserblack/curl-include-rs.svg?branch=master)](https://travis-ci.com/spenserblack/curl-include-rs)
+
 `include_str!` from a request
 
 This is basically just a shortcut to skip downloading a response, and using `include_str!` on that downloaded file.
