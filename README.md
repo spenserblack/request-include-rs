@@ -1,7 +1,7 @@
 # request-include
-`include!` from a request
+`include_str!` from a request
 
-This is basically just a shortcut to skip downloading a response, and using `include!`/`include_str!` on that downloaded file.
+This is basically just a shortcut to skip downloading a response, and using `include_str!` on that downloaded file.
 
 # Usage
 ```rust
