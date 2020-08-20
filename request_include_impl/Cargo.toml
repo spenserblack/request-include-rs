@@ -8,7 +8,6 @@ description = "Implementation crate for request-include"
 keywords = []
 categories = []
 repository = "https://github.com/spenserblack/request-include-rs"
-publish = false # You should at least look at this file before you publish
 
 [lib]
 proc-macro = true
