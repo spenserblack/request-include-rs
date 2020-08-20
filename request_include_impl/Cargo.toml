@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 description = "Implementation crate for request-include"
 keywords = []
 categories = []
-repository = ""
+repository = "https://github.com/spenserblack/request-include-rs"
 publish = false # You should at least look at this file before you publish
 
 [lib]
