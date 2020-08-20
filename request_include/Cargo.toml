@@ -7,4 +7,4 @@ publish = false
 
 [dependencies]
 proc-macro-hack = "0.5.11"
-request-include-impl = { path = "../request_include_impl", version = "0.0.1" }
+request-include-impl = { path = "../request_include_impl" }
