@@ -11,4 +11,4 @@ repository = "https://github.com/spenserblack/request-include-rs"
 
 [dependencies]
 proc-macro-hack = "0.5.11"
-request-include-impl = { path = "../request_include_impl" }
+request-include-impl = { path = "../request_include_impl", version = "0.1" }
