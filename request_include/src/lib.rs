@@ -4,7 +4,7 @@ use proc_macro_hack::proc_macro_hack;
 ///
 /// # Examples
 ///
-/// *__NOTE__ The below examples fail to compile because `<website>` is not a valid URL.
+/// *__NOTE__ The below examples fail to compile because `<website>` is not a valid URL.*
 ///
 /// ## No User Agent
 ///
