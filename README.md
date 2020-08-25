@@ -10,7 +10,11 @@ This is basically just a shortcut to skip downloading a response, and using `inc
 ```rust
 use request_include::include_str as request_str;
 
+// Without user agent
 const DATA: &str = request_str!("API-url");
+
+// With user agent (recommended)
+const OTHER_DATA: &str = request_str!("API-url", "my user agent");
 ```
 
 # Warning
