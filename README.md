@@ -1,6 +1,6 @@
 # request-include
 
-[![Build Status](https://travis-ci.com/spenserblack/curl-include-rs.svg?branch=master)](https://travis-ci.com/spenserblack/curl-include-rs)
+[![Build Status](https://travis-ci.com/spenserblack/request-include-rs.svg?branch=master)](https://travis-ci.com/spenserblack/request-include-rs)
 
 `include_str!` from a request
 
